@@ -8,7 +8,7 @@ function Navbar() {
         
             
             <div className="demo_wrap">
-                 <h1 className="animate__animated animate__backInDown">Вас приветсвует компания<br/>Центр Электронных Услуг</h1>
+                 <h1 className="animate__animated animate__backInDown">Вас приветсвует компания<br/>"Центр электронных услуг"</h1>
                
                <img src={img}/>
                

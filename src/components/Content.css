@@ -8,8 +8,14 @@
 }
 
 .alert button {
-    position: relative;
+position: relative;
 left: 50%;
 transform: translate(-50%, 0);
 margin-bottom: 1em;
+}
+
+.btn-success {
+    font-size: 15.6px;
+    padding-top: 13px;
+    padding-bottom: 13px;
 }

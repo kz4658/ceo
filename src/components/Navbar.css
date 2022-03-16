@@ -1,12 +1,13 @@
 .demo_wrap {
     position: relative;
     overflow: hidden;
-    padding: 16px;
     background-color: blue;
+    padding: 0px;
    
 }
 .demo_wrap h1 {
-    padding: 50px;
+    padding-bottom: 1px;
+    padding-top: 30px;
     position: relative;
     z-index: 2;
     color: white;

@@ -1,11 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import './Content.css';
 import img from '../assets/img/66.jpg'
-import img1 from '../assets/img/j.jpg'
-import img2 from '../assets/img/mock.png'
-import img3 from '../assets/img/mock3.jpg'
-import img4 from '../assets/img/mock2.jpg'
+import img1 from '../assets/img/j.png'
+import img2 from '../assets/img/mock.jpg'
+import img3 from '../assets/img/mock3.png'
+import img4 from '../assets/img/о.jpg'
 import WOW from 'wowjs';
 
 class Content extends React.Component {
@@ -20,8 +19,10 @@ class Content extends React.Component {
             <img src={img} className="img-fluid" />
             <section className="section-intro bg-faded text-xs-center animate__animated animate__backInUp wow">
       <div className="container">
-        <h3 className="m-b-3">УСЛУГИ ОПЫТНЫХ САНТЕХНИКОВ. ВСЕ ВИДЫ САНТЕХНИЧЕСКИХ РАБОТ.</h3>
-        <p className="lead wp wp-2">Быстро выезжаем в любой район города и удалённые районы.</p>
+        <h3 className="m-b-3">Разработка сайтов в Алматы.</h3>
+        <p className="lead wp wp-2">Рекалама в "Google", "Instagram", "Youtube", "Facebook"</p>
+        <p className="lead wp wp-2">Услуга от 15 000 тг.</p>
+        
         
       </div>
     </section>
@@ -36,34 +37,39 @@ class Content extends React.Component {
      
     <section className="section-intro bg-faded text-xs-center animate__animated animate__backInUp wow">
       <div className="container">
-        <h3 className="m-b-3">МОНТАЖ ОТОПЛЕНИЯ, ВОДОПРОВОДА, КАНАЛИЗАЦИИ ЛЮБОЙ СЛОЖНОСТИ.</h3>
-        <p className="lead wp wp-2">Даём гарантию на все виды работ. Если возникнут недочёты — исправим.</p>
+        <h3 className="m-b-3">Все услуги EGOV</h3>
+        <p className="lead wp wp-2">Прописка в городе Алматы</p>
+        <p className="lead wp wp-2">Регистрация брака онлайн</p>
+        <p className="lead wp wp-2">Налоговые декларации</p>
+        <p className="lead wp wp-2">Замена водительского удостоверения</p>
+        <p className="lead wp wp-2">Адресная социальная помощь</p>
+        <p className="lead wp wp-2">Постановка в очередь на жилье</p>
+        
         
       </div>
     </section>
     <img src={img2} className="img-fluid animate__animated animate__backInUp wow" />
     <section className="section-intro bg-faded text-xs-center animate__animated animate__backInUp wow">
       <div className="container">
-        <h3 className="m-b-3">ПРОФЕССИОНАЛЬНАЯ ПРОБИВКА КАНАЛИЗАЦИИ ЛЮБОЙ СЛОЖНОСТИ.</h3>
-        <p className="lead wp wp-2">Соблюдаем чистоту!</p>
+        <h3 className="m-b-3">Поможем открыть ип</h3>
+        <p className="lead wp wp-2">Консультация специалиста</p>
         
       </div>
     </section>
     <img src={img3} className="img-fluid animate__animated animate__backInUp wow" />
     <section className="section-intro bg-faded text-xs-center animate__animated animate__backInUp wow">
       <div className="container">
-        <h3 className="m-b-3">МЕЛКОСРОЧНЫЕ ВЫЗОВЫ: ЗАМЕНА СМЕСИТЕЛЯ, СИФОНА, УНИТАЗА.</h3>
-        <p className="lead wp wp-2">Ремонтируем сантехнику качественно!</p>
+        <h3 className="m-b-3">Профессиональное обучение электронным закупкам РК. Госзакупки, Самрук.</h3>
+        <p className="lead wp wp-2">Услуга от 15 000 тг.</p>
         
       </div>
     </section >
     <img src={img4} className="img-fluid animate__animated animate__backInUp wow" />
     <section className="section-intro bg-faded text-xs-center animate__animated animate__backInUp wow">
       <div className="container">
-        <h3 className="m-b-3">Большой опыт!</h3>
-        <p className="lead wp wp-2">Благодаря фокусировке именно на сантехнических работах, мы с уверенностью можем сказать, 
-        что знаем об этой сфере все и выполняем работу качественно.
-         Нашим специалистам по плечу любые услуги: от устранения засора и до установки джакузи</p>
+        <h3 className="m-b-3">Снятие арестов с банковских счетов</h3>
+        <p className="lead wp wp-2">Отмена нотариальной надписи, снятие арестов с банковских счетов</p>
+        <p className="lead wp wp-2">Услуга от 5000 тг.</p>
         
       </div>
     </section>
